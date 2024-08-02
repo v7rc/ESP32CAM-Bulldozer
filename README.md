@@ -16,6 +16,12 @@ ESP32 Board Information:
 - Flash Mode: "QIO"
 - Partition Scheme: "Default 4MB with Spiffs (1.2MB APP / 1.5MB SPIFFS)
 - Upload Speed: "921600"
-
-![Alt text](./screen-20240802001.png)
 ![Alt text](./screen-20240802002.png)
+
+Extra H/W: USB to TTL Module X 1
+
+## Notes:
+- When you want to flash the code to ESP32, Please push the P0 (on the Miniplan battery module) button and hold on it, then power on the MiniPlan battery module. After that you can upload you code via USB to TTL module.
+- If you get trouble with upload your code, please check the Vcc line connected from Miniplan battery module to the USB-to-TTL module and make sure it is 5V. (Sometime the you would get this troule when the voltage on the miniplan battery is not enough.
+
+
