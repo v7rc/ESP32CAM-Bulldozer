@@ -20,6 +20,9 @@ ESP32 Board Information:
 
 Extra H/W: USB to TTL Module X 1
 
+How to connect: Please check the image as below:
+![Alt text](./IMG_6594.jpg)
+
 ## Notes:
 - When you want to flash the code to ESP32, Please push the P0 (on the Miniplan battery module) button and hold on it, then power on the MiniPlan battery module. After that you can upload you code via USB to TTL module.
 - If you get trouble with upload your code, please check the Vcc line connected from Miniplan battery module to the USB-to-TTL module and make sure it is 5V. (Sometime the you would get this troule when the voltage on the miniplan battery is not enough.
