@@ -203,7 +203,7 @@ void startCameraServer() {
 
 
 
-const char* versionInfo = "Version: Test_5"; // 編譯版本
+const char* versionInfo = "Version: 1.0.1"; // 編譯版本
 char burnDate[] = __DATE__; // 編譯日期
 char burnTime[] = __TIME__; // 編譯時間
 
@@ -278,7 +278,7 @@ void setup() {
 
   // 獲取ESP32的Chip ID
   uint64_t chipid = ESP.getEfuseMac();                                               // 獲取EFUSE MAC地址，用於Chip ID
-  snprintf(ssid, 23, "ESP32_%04X%08X", (uint16_t)(chipid >> 32), (uint32_t)chipid);  // 將Chip ID格式化並存儲於ssid陣列
+  snprintf(ssid, 23, "V7RC_%04X%08X", (uint16_t)(chipid >> 32), (uint32_t)chipid);  // 將Chip ID格式化並存儲於ssid陣列
   WiFi.softAP(ssid, password);
 
   Serial.print("AP IP address: ");
