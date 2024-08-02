@@ -16,3 +16,6 @@ ESP32 Board Information:
 - Flash Mode: "QIO"
 - Partition Scheme: "Default 4MB with Spiffs (1.2MB APP / 1.5MB SPIFFS)
 - Upload Speed: "921600"
+
+![Alt text](./screen-20240802001.png)
+![Alt text](./screen-20240802002.png)
